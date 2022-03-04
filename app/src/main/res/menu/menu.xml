@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/adopt"
+        android:title="Adopt a pet"
+        android:icon="@drawable/adopt_ic"/>
+    <item
+        android:id="@+id/find"
+        android:title="Find a pet"
+        android:icon="@drawable/ic_adopt_pet"/>
+    <item
+        android:id="@+id/care"
+        android:title="Pet care"
+        android:icon="@drawable/pet_care"/>
+    <item
+        android:id="@+id/order"
+        android:title="Order"
+        android:icon="@drawable/ic_order"/>
+
+
+</menu>

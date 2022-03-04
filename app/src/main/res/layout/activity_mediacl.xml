@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrnd"
+    tools:context=".Medical_J.Medical">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+                android:id="@+id/medical_return_btn"
+            android:layout_width="48dp"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/medical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medical"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/Welcome_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/medical"
+                android:layout_marginTop="6dp"
+                android:text="@string/welcome_back"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/patient_info"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/medical_icon" />
+        </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:id="@+id/appointment"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/appointment"
+                    android:src="@drawable/book" />
+
+                <ImageView
+                    android:id="@+id/hospital"
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/find_a_hospital"
+                    android:src="@drawable/hospital" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/diagnosis"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/diagnosis"
+                    android:src="@drawable/diagnosis" />
+
+
+                <ImageView
+                    android:id="@+id/doctor"
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/doctor_notes"
+                    android:src="@drawable/doc" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/treatment"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/treatments"
+                    android:src="@drawable/treatment" />
+
+
+                <ImageView
+                    android:id="@+id/prescription"
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/prescriptions"
+                    android:src="@drawable/prescription" />
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403308073928",
+    "project_id": "critter-care-5b8e7",
+    "storage_bucket": "critter-care-5b8e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403308073928:android:c7240a81875f70229926fd",
+        "android_client_info": {
+          "package_name": "com.example.petapp20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403308073928-9bq4hg033uuufmuh8uuqbpvmm48qjr03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Msb4nAMA7RgdGCUBrjeSugvLcBkjZ64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403308073928-9bq4hg033uuufmuh8uuqbpvmm48qjr03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

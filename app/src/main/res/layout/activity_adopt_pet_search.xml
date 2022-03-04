@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue_600"
+    android:padding="10dp"
+    tools:context=".Adopt_pet_search">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adopt the Perfect Pet"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="150dp"
+        android:id="@+id/Adopt_searchBox"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:hint="Text goes here"/>
+
+    <Button
+        android:background="@drawable/profile_button_background"
+        android:id="@+id/Adopt_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/adopt_pet_ic"/>
+
+</LinearLayout>
